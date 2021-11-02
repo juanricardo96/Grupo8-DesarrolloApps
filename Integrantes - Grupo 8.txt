@@ -2,5 +2,5 @@ GRUPO 8
 
 -Javier Puentes Bejarano - Product Owner
 -Marlon Santiago Henao Morera -	SCRUM master
--Juan Ricardo Rodriguez Peña
--Rogers Garcia Mora
+-Juan Ricardo Rodriguez Peña - Desarrollador
+-Rogers Garcia Mora - Desarrollador
