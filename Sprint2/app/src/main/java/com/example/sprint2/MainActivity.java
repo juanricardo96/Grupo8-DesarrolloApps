@@ -27,9 +27,21 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 /*String estaturaF = estatura.getText().toString();
                 String pesoF = peso.getText().toString();*/
+                String estado = new String("");
                 float estaturaF = new Float(estatura.getText().toString());
                 float pesoF = new Float(peso.getText().toString());
-                imc.setText(""+ pesoF/((estaturaF/100)*(estaturaF/100)));
+                float vimc = pesoF/((estaturaF/100)*(estaturaF/100));
+
+                if(vimc < 18.5)
+                    estado = "Bajo peso";
+                if(vimc >= 18.5 && 18.5 < 25.0)
+                    estado = "Normal";
+                if(vimc >= 25.0 && 18.5 < 30.0)
+                    estado = "Sobrepeso";
+                if(vimc >= 30.0)
+                    estado = "Obesidad";
+
+                imc.setText(""+ vimc +", Estado: "+estado);
             }
         });
     }
