@@ -5,6 +5,6 @@
     <string name="ingrese_estatura">Write your height in cms</string>
     <string name="ingrese_peso">Write your weight in kgs</string>
     <string name="btn">Calculate</string>
-    <string name="texto_resultado">Your IMS is:</string>
+    <string name="texto_resultado">Your IMC is:</string>
     <string name="nombre">Write your name:</string>
 </resources>
