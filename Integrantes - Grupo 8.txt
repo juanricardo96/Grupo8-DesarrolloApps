@@ -4,3 +4,4 @@ GRUPO 8
 -Marlon Santiago Henao Morera -	SCRUM master
 -Juan Ricardo Rodriguez Peña - Desarrollador
 -Rogers Garcia Mora - Desarrollador
+-Jorge Enrique Galvis Saenz - Desarrollador
