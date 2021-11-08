@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sprint 2</string>
+    <string name="titulo">IMC Form</string>
+    <string name="ingrese_estatura">Write your height in cms</string>
+    <string name="ingrese_peso">Write your weight in kgs</string>
+    <string name="btn">Calculate</string>
+    <string name="texto_resultado">Your IMS is:</string>
+    <string name="nombre">Write your name:</string>
+</resources>
