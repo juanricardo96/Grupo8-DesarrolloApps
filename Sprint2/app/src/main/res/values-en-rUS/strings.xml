@@ -7,4 +7,6 @@
     <string name="btn">Calculate</string>
     <string name="texto_resultado">Your IMC is:</string>
     <string name="nombre">Write your name:</string>
+    <string name="res_lista">Previous register</string>
+    <string name="imc_register">Your IMC:</string>
 </resources>

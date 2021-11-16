@@ -6,4 +6,6 @@
     <string name="btn">Calcular</string>
     <string name="texto_resultado">Su IMC corporal es de:</string>
     <string name="nombre">Ingrese su nombre:</string>
+    <string name="res_lista">Registros Anteriores</string>
+    <string name="imc_register">Su IMC fue:</string>
 </resources>

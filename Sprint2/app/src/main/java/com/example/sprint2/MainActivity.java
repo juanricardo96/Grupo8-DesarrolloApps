@@ -10,6 +10,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.example.sprint2.model.Registro;
+
+import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -17,6 +21,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        ArrayList<Registro> registros = new ArrayList<Registro>();
+
+        //registros.add(new Registro("Laura", 180, 60,20.5));
+
+        EditText nombre = (EditText) findViewById(R.id.textNombre);
         EditText estatura = (EditText) findViewById(R.id.textEstatura);
         EditText peso = (EditText) findViewById(R.id.textPeso);
         Button botonCalcular = (Button) findViewById(R.id.boton_calcular);
