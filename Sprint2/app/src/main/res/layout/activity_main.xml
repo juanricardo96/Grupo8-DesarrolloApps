@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<LinearLayout
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -13,17 +17,19 @@
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:src="@drawable/outline_spa_24"
-        android:background="@color/teal_700"/>
+        android:background="#669bbc"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/titulo"
-        android:textSize="24sp"
-        android:padding="20dp"
-        android:layout_margin="4dp"
         android:layout_gravity="center_vertical"
-        android:gravity="center_horizontal"/>
+        android:layout_margin="4dp"
+        android:fontFamily="@font/fredoka_one"
+        android:gravity="center_horizontal"
+        android:padding="20dp"
+        android:text="@string/titulo"
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -70,57 +76,47 @@
             android:ems="10"
             android:inputType="number"/>
 
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="2"
-        android:orientation="vertical">
-
         <TextView
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/texto_resultado"
+            android:fontFamily="@font/fredoka_one"
             android:gravity="center_horizontal"
-            android:textSize="22sp"/>
+            android:text="@string/texto_resultado"
+            android:textSize="22sp" />
 
         <TextView
             android:id="@+id/textIMC"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text=""
+            android:layout_height="53dp"
+            android:background="#669bbc"
             android:gravity="center_horizontal"
-            android:textSize="26sp"
-            android:background="@color/teal_700"/>
-    </LinearLayout>
-    <Button
-        android:id="@+id/boton_calcular"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="12dp"
-        android:text="@string/btn"
-        android:textSize="20sp"
-        />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="2"
-        android:orientation="vertical">
-
+            android:text=""
+            android:textSize="22sp" />
+        <Button
+            android:id="@+id/boton_calcular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#006d77"
+            android:fontFamily="@font/fredoka_one"
+            android:padding="12dp"
+            android:layout_marginVertical="5dp"
+            android:text="@string/btn"
+            android:textSize="20sp"
+            app:cornerRadius="200sp" />
         <TextView
             android:id="@+id/textLista"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/res_lista"
+            android:fontFamily="@font/fredoka_one"
             android:gravity="center_horizontal"
-            android:textSize="22sp"/>
-
+            android:text="@string/res_lista"
+            android:textSize="25sp"
+            android:textColor="#669bbc"/>
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/lista_contactos"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
     </LinearLayout>
 </LinearLayout>
+</ScrollView>

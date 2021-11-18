@@ -1,15 +1,15 @@
 package com.example.sprint2.model;
 
-public class Registro {
+public class Registro{
     private String nombre;
-    private Float estatura;
-    private Float peso;
-    private Float imc;
+    private double estatura;
+    private double peso;
+    private double imc;
 
     public Registro() {
     }
 
-    public Registro(String nombre, Float estatura, Float peso, Float imc) {
+    public Registro(String nombre, double estatura, double peso, double imc) {
         this.nombre = nombre;
         this.estatura = estatura;
         this.peso = peso;
@@ -24,27 +24,27 @@ public class Registro {
         this.nombre = nombre;
     }
 
-    public Float getEstatura() {
+    public double getEstatura() {
         return estatura;
     }
 
-    public void setEstatura(Float estatura) {
+    public void setEstatura(double estatura) {
         this.estatura = estatura;
     }
 
-    public Float getPeso() {
+    public double getPeso() {
         return peso;
     }
 
-    public void setPeso(Float peso) {
+    public void setPeso(double peso) {
         this.peso = peso;
     }
 
-    public Float getImc() {
+    public double getImc() {
         return imc;
     }
 
-    public void setImc(Float imc) {
+    public void setImc(double imc) {
         this.imc = imc;
     }
 }

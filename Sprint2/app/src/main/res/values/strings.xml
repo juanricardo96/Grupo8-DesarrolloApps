@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">Sprint 2</string>
     <string name="titulo">Formulario IMC</string>
-    <string name="ingrese_estatura">Ingrese su Estatura en centimetros</string>
-    <string name="ingrese_peso">Ingrese su peso en kilogramos</string>
+    <string name="ingrese_estatura">Ingrese Su Estatura En Centimetros</string>
+    <string name="ingrese_peso">Ingrese Su Peso En Kilogramos</string>
     <string name="btn">Calcular</string>
-    <string name="texto_resultado">Su IMC corporal es de:</string>
-    <string name="nombre">Ingrese su nombre:</string>
+    <string name="texto_resultado">Su IMC Corporal Es De:</string>
+    <string name="nombre">Ingrese Su Nombre:</string>
     <string name="res_lista">Registros Anteriores</string>
     <string name="imc_register">Su IMC fue:</string>
 </resources>
