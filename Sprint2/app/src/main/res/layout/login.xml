@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/outline_spa_24"
+            android:background="#669bbc"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textColor="#669bbc"
+            android:fontFamily="@font/fredoka_one"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/editUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/input_user"
+            android:gravity="center"
+            android:textSize="26sp"
+            android:layout_marginTop="40px"/>
+
+        <EditText
+            android:id="@+id/textUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:inputType="textPersonName"
+            android:gravity="center"
+            android:textSize="26sp"/>
+
+        <TextView
+            android:id="@+id/textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/input_clave"
+            android:gravity="center"
+            android:textSize="26sp"
+            android:layout_marginTop="50px"/>
+
+        <EditText
+            android:id="@+id/editPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:gravity="center"
+            android:textSize="26sp"/>
+        <Button
+            android:id="@+id/boton_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#006d77"
+            android:fontFamily="@font/fredoka_one"
+            android:padding="12dp"
+            android:layout_marginVertical="50dp"
+            android:text="@string/btn_login"
+            android:textSize="20sp"
+            app:cornerRadius="200sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

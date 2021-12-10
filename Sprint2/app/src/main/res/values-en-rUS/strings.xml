@@ -9,4 +9,8 @@
     <string name="nombre">Write your name:</string>
     <string name="res_lista">Previous register</string>
     <string name="imc_register">Your IMC:</string>
+    <string name="input_clave">Password</string>
+    <string name="input_user">User</string>
+    <string name="login">Log in</string>
+    <string name="btn_login">Log in</string>
 </resources>
