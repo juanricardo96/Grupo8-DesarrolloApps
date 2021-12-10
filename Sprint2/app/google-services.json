@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "24960152926",
+    "project_id": "app-imc-grupo8",
+    "storage_bucket": "app-imc-grupo8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24960152926:android:320cda3fd849dad23dcbcf",
+        "android_client_info": {
+          "package_name": "com.example.sprint2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "24960152926-053lsshac0938cjvuoepcit39u26edtt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2qt60AQv9wtoXXu2oQFMOJ1pOzWLho5U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "24960152926-053lsshac0938cjvuoepcit39u26edtt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
